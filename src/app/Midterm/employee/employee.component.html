@@ -1,0 +1,37 @@
+<h1>List of Employee</h1>
+<table>
+  <tr>
+    <th>ID</th>
+    <th>FirstName</th>
+    <th>LastName</th>
+    <th>Email</th>
+  </tr>
+  <td>
+    <tr *ngFor="let employee of employee">
+      {{
+        employee.id
+      }}
+    </tr>
+  </td>
+  <td>
+    <tr *ngFor="let employee of employee">
+      {{
+        employee.firstname
+      }}
+    </tr>
+  </td>
+  <td>
+    <tr *ngFor="let employee of employee">
+      {{
+        employee.lastname
+      }}
+    </tr>
+  </td>
+  <td>
+    <tr *ngFor="let employee of employee">
+      {{
+        employee.email
+      }}
+    </tr>
+  </td>
+</table>
