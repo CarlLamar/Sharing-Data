@@ -15,9 +15,10 @@ table {
   border-radius: 0.25em;
   border-collapse: collapse;
   margin: 1em;
+  text-align: center;
 }
 th {
-  border-bottom: 1px solid #364043;
+  border-bottom: 1px solid #29b5df;
   color: rgb(7, 7, 7);
   font-size: 0.85em;
   font-weight: 600;
@@ -34,9 +35,10 @@ td {
   color: #29b5df;
 }
 tbody tr:hover {
-  background: #29b5df;
+  background: #577d88;
 }
 
 h1 {
-  font-size: 1.9rem;
+  font-size: 2.5rem;
+  text-align: center;
 }
